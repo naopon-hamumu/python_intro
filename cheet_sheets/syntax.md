@@ -12,7 +12,11 @@
 
   * 内包表記
     ```
-    
+    [式 for 変数 in 反復可能なオブジェクト if 条件式]
+
+    data0 = ['apple', 'orange', 'banana', 'avocado']
+    data1 = [s for s in data0 if s[0] == 'a']
+    print(data1) # => ['apple', 'avocado']
     ```
 
 - 繰り返し

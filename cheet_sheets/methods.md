@@ -82,3 +82,38 @@
       sorted(リスト)
       sorted(リスト, reverse=True) # 降順
       ```
+
+  - 辞書
+    - 値の取得
+      ```
+      変数名[キー]
+      変数名.get(キー)
+      ```
+
+    - 一覧の取得
+      * キー
+        ```
+        変数名.key()
+
+        for k in info.keys()
+        ```
+
+      * 値
+        ```
+        変数名.values()
+        ```
+
+      * タプル（キーと値を格納）
+        ```
+        変数名.items()
+        ```
+
+  - セット
+    - セットの包含関係を調べる
+      ```
+      変数名.issubset(値)
+
+      set1 = {'A', 'B', 'C'}
+      set2 = {'B', 'C'} # => True
+      set1.issubset(set2) # => False
+      ```
